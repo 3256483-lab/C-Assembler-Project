@@ -1,6 +1,43 @@
-היי,
-הנחנו (באישורך) שאסור תווים לבנים בתוך סוגריים של מטריצה.
-תודה ובהצלחה בבדיקה!
+# C Assembler Project
+
+## Overview
+This project implements a two-pass assembler in C, simulating the compilation process of assembly code into machine code.
+
+## Features
+- Two-pass assembly process (first pass and second pass)
+- Lexical and syntactic parsing of assembly instructions
+- Symbol table construction and management
+- Memory allocation and address resolution
+- Error detection and handling
+- Modular and maintainable code design
+
+## Technologies
+- C programming language
+- Linux environment
+- Git for version control
+
+## Project Structure
+- `main.c` – main program flow
+- `first_pass.c` – first pass logic
+- `second_pass.c` – second pass logic
+- `symbol_table.c` – symbol management
+- Additional helper files as needed
+
+## How to Run
+1. Compile the project:
+make
+or:
+gcc *.c -o assembler
+2. Run the assembler:
+./assembler input_file.as
+
+## Notes
+This project was developed as part of an academic course in systems programming and focuses on low-level programming concepts and efficient memory handling.
+
+
+
+
+
 
 
 
